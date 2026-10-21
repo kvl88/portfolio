@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Data and outputs (keep raw data out of GitHub)
+data/
+outputs/
+*.parquet
+*.duckdb
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editors and OS
+.vscode/
+.DS_Store
